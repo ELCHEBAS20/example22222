@@ -1,0 +1,342 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14-sep-2022, 1:27:47
+    Author     : Juan Sebastian S
+*/
+@import "Style.css";
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Comic Sans MS';
+        
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .imgBx{
+    
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .imgBx:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e91e63,#03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+
+section .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#LgMain{
+    width: 500px;
+    height: 602px;
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 920px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 20px;
+}
+
+#RgMain{
+   
+    width: 502px;
+    height: 700px;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 48px;
+    left: 920px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 20px;
+}
+
+.InputUser{
+    
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.InputPswd{
+    
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+    cursor: pointer; 
+}
+
+input{
+    text-align: center;
+}
+
+
+label:hover{
+   color: black;
+}
+
+#LgMain img{
+    
+   position: relative;
+   left: 200px;
+   top: 70px;
+}
+
+#BtnSubmit{
+   background-color: #4CAF50;
+   position: relative;
+   top: 363px;
+   left: 100px;
+}
+
+#BtnSubmit{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   border-radius: 10px;
+}
+
+#btnRegister{
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#btnRegister{
+    background-color: #f44336;
+    position: relative;
+    margin-top: 310px;
+    margin-left: 300px;
+}
+
+#btnRegister:hover{
+  background-color: #e7e7e7;
+    cursor: pointer;
+    color: black;
+}
+
+#BtnSubmit:hover{
+    
+    background-color: #e7e7e7;
+    cursor: pointer;
+    color: black;
+}
+
+#BtnMostrar{
+    position: relative;
+    top: -95px;
+    left: -70px;
+}
+
+#BtnMostrar{
+    border: none;
+    outline: none;
+}
+
+.MsgError{
+    width: 200px;
+    height: 20px;
+    background: none;
+    position: relative;
+    top:40px;
+    left: 150px;
+    text-align: center;
+}
+
+#load_img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background:none;
+}
+
+#load_img img{
+    position: relative;
+    top: 5px;
+    left: 300px;
+}
+
+
+video {  
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;   
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);  
+    z-index: -100;
+    background-size: cover;
+  }
+  
+  
+  .card-main{
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 460px;
+  }
+  
+  .card-main #btnAdmin{
+      position: relative;
+      top: 200px;
+      
+  }
+  
+  .card-main #btnUser{
+      position: relative;
+      top: 150px;
+  }
+  
+  h1{
+      color: #fff;
+      letter-spacing: 20px;
+  }
+  
+  #ImgRegistro{
+      
+      position: relative;
+      top: 50px;
+      left: 150px;
+  }
+  
+  #form-group2{
+      position: absolute;
+      margin-top: 20px;
+  }
+  
+  #BtnRegister{
+      position: absolute;
+  }
+  
+  #RgMain input{
+      width: 200px;
+  }
+  
+  #div_box_btn_main {
+   position: fixed;
+   margin-top: 250px;
+   margin-left: -70px;
+  }
+  
+  #div_box_effect button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100%;
+  width: 40px;
+  margin-top: -400px;
+  margin-left: 470px;
+  cursor: pointer;
+  height: 40px; 
+  font-size: 15px;
+  }
+
+  #div_box_btn_main input{
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  }  
+  
+  
+  
+  #BtnRegister:hover{
+      background-color: #e7e7e7;
+    cursor: pointer;
+    color: black;
+  }
+  
+    #btnInicio:hover{
+    background-color: #e7e7e7;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .Register_Btn{
+    position: absolute;
+    margin-top: -200px;
+  }
+  
+  #form_main{
+      margin-left: 150px;
+      margin-top: 80px;
+     position: absolute;
+  }
+  
+  
+  #btnInicio{
+      position: fixed;
+      top: 437px;
+  }
+  
+  #BtnSubmit_register{
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-left: 50px;
+  }
+  
+  #BtnSubmit_register:hover{
+      background-color: #e7e7e7;
+    cursor: pointer;
+    color: black;
+  }
+  
+  

@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Comic Sans MS';
+}
+
+
+body{
+      background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ img{
+    position: absolute;
+}
+
+ #Container-data{
+    width: 550px;
+    height: 550px;
+    background: #fff;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+
+#content-box button{
+  
+    position: absolute;  
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 510px;
+}
+
+#content-box input{
+    position: relative;
+    width: 450px;
+    margin-top: 5rem;
+    top: 150px;
+    left: 50px;
+    text-align: center;
+}
+
+#pata1{
+  
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+    
+}
+
+#pata2{
+  
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    
+}
+
+#pata3{
+      position: absolute;
+      margin-left: 60px;
+}
+
+#pata4{
+      position: absolute;
+      margin-top: 280px;
+      margin-left: 20px;
+}
+
+
+#ImgDere{
+  position: absolute;
+  margin-left: 1200px;
+}
+
+#pata5{
+    position: absolute;
+    margin-top: 500px;
+}
+
+#pata6{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: -120px;
+}
+
+#pata7{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 280px;
+}
+
+button{
+    position: relative;
+    top: 330px;
+    letter-spacing: 10px;
+}
+
+#Content_Msg{
+    width: 300px;
+    height: 70px;
+    background: none;
+    margin-top: 310px;
+    margin-left: 125px;
+}
+
+#Content_Msg h4{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    
+}
+
+#loadImg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 120px;
+    margin-left: 200px;
+}
+
+a{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+

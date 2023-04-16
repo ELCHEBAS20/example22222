@@ -1,0 +1,406 @@
+
+
+@import "Dashboard.css";
+
+
+body{
+    overflow: hidden;
+    font-family:'Open Sans,sans-serif';
+    font-weight: 300;
+    color:white;
+    background:#1b1b38;
+}
+
+b{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+a{
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color:#a16eff;
+    text-decoration: none;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+    background:#323259;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 200px;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width:18rem;
+}
+
+.avatar{
+    max-width: 35px;
+}
+
+#user-text{
+ color:white;
+}
+
+#container{
+    background:#323259;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+#tbl_vinculos{
+    
+    width: 1100px;
+    height: 650px;
+    background:#323259;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius:20px;
+}
+
+#card_Encontrados{
+    
+     width: 350px;
+    height: 650px;
+    background:#A4F7FF;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius:20px;
+}
+
+
+    
+#card_Perdidos{
+    width: 350px;
+    height: 650px;
+    background:#FF9499;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 100px;
+    border-radius:20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+tbody tr:hover{
+    background:#A9A5AB;
+    border: none;
+    outline: none;
+}
+
+h4{
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.thead{
+    color:#a16eff;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+thead{
+    border-radius: 20px;
+    background: #a16eff;
+    border: 5px solid #a16eff;
+    color: white;
+    
+}
+
+table{
+    position: relative;
+    top: 15px;
+}
+
+
+tr{
+    color: white;
+}
+
+#modificar{
+    background: none;
+    color: #FFFDF9 ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #FFFDF9;
+}
+
+#eliminar{
+    background: none;
+    color:red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+input{
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-body input{
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+#Btnmod{
+    position: relative;
+    top: 22px;
+    left: -5px;
+}
+
+#campos_modal{
+    position: relative;
+    top: -30px;
+}
+
+#thUser{
+    display: none;
+}
+
+.modal-header h3{
+    position: relative;
+    top:5px;
+    font-weight: bold;
+}
+
+#card_Encontrados img{
+    position: relative;
+    top: 50px;
+    left: 62px;
+}
+
+#card_Perdidos img{
+    position: relative;
+    top: 50px;
+    left: 62px;
+}
+
+.Div_Box0{
+    width: 340px;
+    height: 300px;
+    background:none;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Div_Box0 i{
+    color: #fff;
+}
+
+#btnPerdido{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    letter-spacing: 5px;
+}
+
+#btnEncontrado{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    width: 300px;
+    letter-spacing: 5px;
+}
+
+#divBox h3{
+    position: relative;
+    top: 20px;
+}
+
+#body-data tr{
+    color:black;
+}
+
+#content h4{
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    position: relative;
+    top:15px;
+}
+
+#Title{
+    color: black;
+}
+
+#ImgProfile{
+    position: relative;
+    top: 120px;
+    left: 120px;
+}
+
+#InfoProfile{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background:none;
+    margin-left: 500px;
+    margin-top: -180px;
+    border-radius: 20px;
+}
+
+#Pswd_text{
+    -webkit-filter:blur(4px);
+}
+
+#Pswd_text:focus{
+    -webkit-filter:none;
+}
+
+#InfoProfile input{
+    width: 200px;
+}
+
+#InfoProfile label{
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+#info_first{
+    position: relative; 
+    top: 20px;
+}
+
+#info_second{
+    position: relative;
+    left: 280px;
+    top: -245px;
+}
+
+
+#Grafica{
+    position: relative;
+    top: 45px;
+}
+
+#InfoChip{
+    overflow: hidden;
+    width: 200px;
+    height: 170px;
+    background: none;
+    position: relative;
+    top: -470px;
+    left: 870px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+Canvas#Grafica{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+#info_second02{
+    position: relative;
+    top: -50px;
+    left: 280px;
+}
+
+#info_first01{
+    position: relative;
+    top: 82px;
+}
+
+#btnModificaradmin{
+    position: relative;
+    top: -20000px;
+}
+
+#Updatebtn{
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+}
+
+#Deletebtn{
+    border: none;
+    background: none;
+    outline: none;
+    color: red;
+}
+
+#Visualizarbtn{
+    border: none;
+    background: none;
+    outline: none;
+    color: #4CAF50;
+}
+
+#Lg_Sign_off{
+    font-size: 15px;
+}
+
+#Lg_Sign_off:hover{
+    background: #a16eff;
+    color: #fff;
+}
+
+#Alert_register{
+    position: relative;
+    left: -20px;
+}
+
+#Div_sing_off{
+    
+    width: 200px;
+    height: 200px;
+    background: red;
+     
+}
+
+.textoddd {
+  font: bold 80px/1 arial;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0  2px 0 #41330a,
+               0  4px 0 #41330a,
+               0  6px 0 #41330a,
+               0  8px 0 #41330a,
+               0 10px 0 #41330a,
+               0 12px 0 #41330a;
+}
+
+#content_div{
+  
+    position: relative;
+    top: 350px;
+    left: 280px;
+    
+}
+
+#content_div button{
+    position: relative;
+    top: 150px;
+    left: 220px;
+    width: 600px;
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
